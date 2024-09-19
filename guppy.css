@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@200;300;400;700;800&family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;  
+    /* background-color: blue;   */
+}
+.head{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(to right,#a6a6a6ed, #ffffff);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image img{
+    width: 500px;
+    background-color: transparent;
+    margin-right: 100px
+}
+
+.head h1{
+    font-size: 250px;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    
+    color: #5ca4c1;
+}
+.title{
+    position: relative;
+}
+.title h2{
+    font-family: "BioRhyme Expanded", serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    font-size: 90px;
+}
